@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Cairo:wght@200..1000&display=swap');
+.rr__faq-2 .accordion-button::after, .rr__faq .accordion-button::after {
+  border-radius: 500px;
+}
+::-webkit-scrollbar {
+	width: 7px; 
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+	background-color: var(--rr-bg-second); 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: var(--rr-theme-primary); 
+	width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+	color: blueviolet; 
+  }
+.latest-services-2__item, .our-portfolio-2__item, .our-portfolio-2__item__content-media, .our-portfolio-2__item__wrapper, .our-portfolio__item__wrapper, .pricing-2__item, .testimonial-3__slider-dot .swiper-pagination-bullet, .pricing-action-3__item, .rr__faq-2 .accordion-item, .pricing-action-2__item, .latest-work__slider-dot .swiper-pagination-bullet, .latest-work__item-hover, .specialist-doctor__item, .doctor__slider-dot .swiper-pagination-bullet, .client-testimonial__slider-dot .swiper-pagination-bullet, .service-4__item, .service-4__item-icon img, .our-projects__item__content::before, .our-projects__item__content-icon, .our-projects__item__content-text, .rr__faq .accordion-item, .team__item-content-share, .pricing__item, .service__item-icon img, .brand__thumb img, .footer-5__link ul li a i, .footer-4__link ul li a i, .footer-4__post ul li a i, .footer-2__link ul li a i, .blog-5__item-meta-list li i, .blog-5__item-meta-list li span,.mean-container .mean-nav ul li > a.mean-expand i, .main-menu ul li.has-dropdown > a::after, .main-menu ul li .submenu, .main-menu ul li .submenu li a::before, .main-menu ul li .mega-menu, .main-menu ul li .mega-menu li ul li a::before, .search__input .search-input-field ~ .search-focus-border, .search__input .search-input-field:focus ~ .search-focus-border, .offcanvas__overlay, .offcanvas__navigation button svg, .rr-btn .btn-wrap .text-one, .rr-btn .btn-wrap .text-two, .body__overlay, a,
+.btn,
+button,
+span,
+sub,
+sup,
+p,
+input,
+select,
+textarea,
+li,
+img,
+svg,
+.transition-3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+svg path {
+  -webkit-transition: all 0.3s 0s ease-out;
+  transition: all 0.3s 0s ease-out;
+  font-family: "Cairo", sans-serif;
+}
+
+/* transform */
+.appointment-3__form-select .nice-select::after, .doctor-details__form-input-select .nice-select::after, .take-appointment-3__form-input-select .nice-select::after, .pricing-appointment__form-select .nice-select::after, .rr__faq-2 .accordion-button::after, .appointment-2__form-input-select .nice-select::after, .take-appointment__form-input-select .nice-select::after, .rr__faq .accordion-button::after {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.service-4__item:hover .service-2__item-icon img {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.3s 0s ease-out;
+  transition: all 0.3s 0s ease-out;
+}
+
+.treatment-process__item:hover .treatment-process__item-icon img, .service__item:hover .service__item-icon img {
+  -webkit-animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transition: all 0.3s 0s ease-out;
+  transition: all 0.3s 0s ease-out;
+}
+
+:root {
+  /**
+  @font family declaration
+  */
+  --rr-ff-body: "Cairo", sans-serif;
+  --rr-ff-heading: "Cairo", sans-serif;
+  --rr-ff-roboto: "Cairo", sans-serif;
+  --rr-ff-fontawesome: "Font Awesome 6 Pro";
+  /**
+  @color declaration
+  */
+  --rr-common-white: #FFFFFF;
+  --rr-common-black: #000000;
+  --rr-common-placeholder: #000000;
+  --rr-common-selection: #000000;
+  --rr-color-white: #000;
+  --rr-color-900: #000000;
+  --rr-color-800: #646464;
+  --rr-color-700: #2A2A2A;
+  --rr-color-200: #E4E5E5;
+  --rr-color-100: #F2F7FD;
+  --rr-body-primary: #ffffff;
+  --rr-theme-primary: #000000;
+  --rr-theme-secondary: #000000;
+  --rr-theme-glow: #646464;
+  --rr-theme-green: #646464;
+  --rr-theme-black: #02110B;
+  --rr-heading-primary: #000000;
+  --rr-text-body: #646464;
+  --rr-shadow-primary: 0px 5px 60px rgba(0, 0, 0, 0.05);
+  --rr-border-primary: 1px solid #000000;
+  --rr-section-1: #000000;
+  --rr-menu-primary: #000000;
+  --rr-bg-second: #fafafa;
+  /**
+  @font weight declaration
+  */
+  --rr-fw-normal: normal;
+  --rr-fw-thin: 100;
+  --rr-fw-elight: 200;
+  --rr-fw-light: 300;
+  --rr-fw-regular: 400;
+  --rr-fw-medium: 500;
+  --rr-fw-sbold: 600;
+  --rr-fw-bold: 700;
+  --rr-fw-ebold: 800;
+  --rr-fw-black: 900;
+  /**
+  @font size declaration
+  */
+  --rr-fs-p: 16px;
+  --rr-fs-body: 16px;
+  --rr-fs-h1: 55px;
+  --rr-fs-h2: 48px;
+  --rr-fs-h3: 30px;
+  --rr-fs-h4: 24px;
+  --rr-fs-h5: 18px;
+  --rr-fs-h6: 16px;
+  --rr-lh-p: 28px;
+  --rr-lh-body: 28px;
+  --rr-lh-h1: 60px;
+  --rr-lh-h2: 55px;
+  --rr-lh-h3: 44px;
+  --rr-lh-h4: 33px;
+  --rr-lh-h5: 30px;
+  --rr-lh-h6: 28px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  direction: rtl !important;
+  text-align: right !important;
+}
+.bg-second{
+  background-color: var(--rr-bg-second);
+}
+/*---------------------------------
+    Typography css start 
+---------------------------------*/
+body {
+  font-family: "Cairo", sans-serif;
+  font-size: var(--rr-fs-body);
+  line-height: var(--rr-lh-body);
+  font-weight: normal;
+  color: var(--rr-text-body);
+  background: var(--rr-body-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl !important;
+  text-align: right !important;
+}
+.main-menu ul li.has-dropdown > a::after {
+    content: "\f107";
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    font-size: 10px;
+    font-family: var(--rr-ff-fontawesome);
+    font-weight: 900;
+    -webkit-margin-start: 5px;
+    margin-inline-start: 5px;
+    display: inline-block;
+}
+.rr-btn .btn-wrap i {
+    padding-right: 10px;
+    padding-left: 0;
+}
+.latest-work__item-hover {
+    opacity: 0;
+    visibility: visible;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    padding: 20px 30px;
+    padding-left: 65px;
+    background: #FFFFFF;
+    border-right: 3px solid #000000;
+    border-left: none;
+    border-radius: 20px;
+    width: 50%;
+}
+.appointment-2__media {
+    margin-right: -110px;
+    margin-left: 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.footer-4__link ul li {
+    font-size: 16px;
+    padding-right: 30px;
+}
+.footer-4__link ul li::before {
+    top: 0;
+    right: 0;
+    content: "\f100";}
+    .breadcrumb__content{
+        text-align: center !important;
+    }
+    .breadcrumb__menu ul li:after {
+        margin-right: 18px;
+        content: "\f104";
+    }
+    .blog__details-content blockquote span {
+        position: absolute;
+        bottom: 40px;
+        left: 60px;
+        right: unset;
+    }
+    .offcanvas__social ul li {
+    margin-right: 10px;}
+    .hero-content img {
+    margin-left: 7px;}
+    @media (max-width: 700px) {
+        .appointment-2__media {
+             margin-right: 0;}}
+             .doctor__item-content-text {
+              width: calc(100% - 60px);
+              right: 30px;
+              left: unset;
+              z-index: 2;
+              position: relative;
+          }
+          .footer__widget.footer__widget-item-2 {
+            padding-right: 58px;
+            padding-left: 0;
+            margin-right: -26px;
+        }
+        .footer__link ul li a i {
+          margin-left: 10px;
+          color: var(--rr-theme-black);
+      }
+      .take-appointment__form-input-select .nice-select .option{
+        text-align: right;
+      }
+      .doctor-details__content-future__list li span{
+        margin-right: 0;
+        margin-left: 10px;
+      }
+      .sidebar__widget-service .active i {
+        rotate: 0deg;
+    }
+    .sidebar__widget-service a i{
+      rotate: 180deg;
+    }
+    .sidebar__widget-service a:hover i {
+      rotate: 0deg;
+  }
